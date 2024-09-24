@@ -5,3 +5,8 @@
 
 ## Mise en Place du Projet
 1) Je vais commencer par créer un plan pour ensuite l'appliquer dans la page d'acceuil du site sous forme de sommaire qui se situera soit à droite ou au centre de la page. Le but étant que le rendu soit bien.
+
+### Definir les objectifs
+1) Présentation des deux modèles Peugeot 206 et 208.
+2) Comparaison des spécifications (moteur, performance, design).
+3) Galerie d'images et informations complémentaires.
