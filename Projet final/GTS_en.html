@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="GTS.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Porsche GTS</title>
+</head>
+<body>
+
+	<header>
+		<div class="logo">
+			<a href="index2.html">PORSCHE</a>
+		</div>
+		<div class="menu">
+            <button class="openbtn" onclick="openNav()">
+                MENU
+            </button>
+        </div>
+	</header>
+
+	<section class="home">
+        <div class="left">
+            <div class="logo"></div>
+            <ul class="links">
+                <button class="closebtn" onclick="closeNav()">close</button>
+                <li><a href="index2.html">Home</a></li>
+                <li><a href="GTS.html">Porsche GTS</a></li>
+                <li><a href="#">Porsche 911</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="right"></div>
+    </section>
+
+    <section class="content">
+    	<h1>What's New</h1>
+    	<p>Here are the latest Porsche GTS models</p>
+    	<button>DISCOVER</button>
+    </section>
+
+    <h1 class="produits_texte">Products</h1>
+    <section class="section_produis">
+    	<div class="produits">
+    		<div class="carte">
+    			<div class="img"><img src="porsche-normal3.webp" alt="Porsche GT3"></div>
+    			<div class="desc">Porsche 911</div>
+    			<div class="Titre">GT3</div>
+    			<div class="box">
+    				<div class="Prix"></div>
+    				<button class="Achat">Buy</button>
+    			</div>
+    		</div>
+
+    		<div class="carte">
+    			<div class="img"><img src="porsche-normal2.webp" alt="Porsche GT3 RS"></div>
+    			<div class="desc">Porsche 911</div>
+    			<div class="Titre">GT3 RS</div>
+    			<div class="box">
+    				<div class="Prix"></div>
+    				<button class="Achat">Buy</button>
+    			</div>
+    		</div>
+
+    		<div class="carte">
+    			<div class="img"><img src="porsche-normal3.webp" alt="Porsche GT RS"></div>
+    			<div class="desc">Porsche 911</div>
+    			<div class="Titre">GT RS</div>
+    			<div class="box">
+    				<div class="Prix"></div>
+    				<button class="Achat">Buy</button>
+    			</div>
+    		</div>
+
+    		<div class="carte">
+    			<div class="img"><img src="Pr.png" alt="Porsche Speedster"></div>
+    			<div class="desc">Porsche 911</div>
+    			<div class="Titre">Speedster</div>
+    			<div class="box">
+    				<div class="Prix"></div>
+    				<button class="Achat">Buy</button>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+	<script>
+		function openNav() {
+		    document.querySelector(".links").style.width = "100%";
+		    document.querySelector("body").style.overflow = "hidden";
+		    document.querySelector(".cars").classList.add("hidden");
+		}
+
+		function closeNav() {
+		    document.querySelector(".links").style.width = "0%";
+		    document.querySelector("body").style.overflow = "unset";
+		    document.querySelector(".cars").classList.remove("hidden");
+		}
+	</script>
+		
+</body>
+</html>

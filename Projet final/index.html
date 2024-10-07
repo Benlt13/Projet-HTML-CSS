@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CONNEXION</title>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+	<div class="wrapper">
+		<nav class="navbar">
+            <div class="language-switcher">
+                <a href="index.html" class="btn-lang">FR</a> | <!-- Lien vers la version française -->
+                <a href="login_en.html" class="btn-lang">EN</a> <!-- Lien vers la version anglaise -->
+            </div>
+        <form id="loginForm">
+          	<h1>Connexion</h1>
+          	<div class="input-box">
+            	<input type="text" placeholder="Nom d'utilisateur" id="username">
+            	<i class='bx bxs-user'></i>
+          	</div>
+          	<div class="input-box">
+            	<input type="password" placeholder="Mot de passe" id="password">
+            	<i class='bx bxs-lock-alt'></i>
+          	</div>
+
+          	<div class="remember-forgot">
+          		<label><input type="checkbox">Se souvenir de moi</label>
+          		<a href="#">Mot de passe oublié</a>
+          	</div>
+
+          	<button type="submit" class="btn">Connexion</button>
+
+          	<div class="register-link">
+          		<p>Je n'ai pas de compte ? <a href="#">S'inscrire</a></p>
+          	</div>
+
+          	<!-- Zone pour afficher les messages d'erreur -->
+          	<div id="errorMessage" style="color: red; text-align: center; margin-top: 10px;"></div>
+
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault(); 
+
+            const username = document.getElementById('username').value;
+            const errorMessage = document.getElementById('errorMessage');
+            
+            if (username) {
+                window.location.href = "index2.html"; 
+            } else {
+                errorMessage.textContent = "Veuillez entrer un nom d'utilisateur."; 
+            }
+        });
+    </script>
+</body>
+</html>

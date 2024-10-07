@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porsche</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="index.html">Porsche</a>
+        </div>
+        <nav class="navbar">
+            <div class="language-switcher">
+                <a href="index.html" class="btn-lang">FR</a> | <!-- Lien vers la version française -->
+                <a href="index_en.html" class="btn-lang">EN</a> <!-- Lien vers la version anglaise -->
+            </div>
+            
+            <button class="openbtn" onclick="openNav()">
+             MENU
+            </button>
+        </nav>
+    </header>
+
+    <div id="mySidenav" class="sidenav">
+        <button class="closebtn" onclick="closeNav()">&times;</button>
+        <ul class="side-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="GTS.html">Porsche GT</a></li>
+            <li><a href="decou.html">Découvrir</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <section class="home">
+        <div class="left">
+            <h1>Porsche <span>911</span></h1>
+            <p>Quand on imagine une Porsche, c’est généralement elle que l’on a en tête : la 911 est depuis 60 ans l’incarnation même d’une voiture de sport passionnante et puissante, adaptée à un usage au quotidien. Prenez place au volant de la nouvelle 911 et faites partie d’une communauté unique.</p>
+            <a href="ESV2.html" class="btn">EN SAVOIR PLUS</a>
+        </div>
+        <div class="right">
+            <img src="porsche_PNG102855.png" alt="Porsche 911">
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <a href="index.html">Porsche</a>
+            </div>
+            <div class="footer-links">
+                <a href="#">Home</a>
+                <a href="GTS.html">Porsche GT</a>
+                <a href="decou.html">Découvrir</a>
+                <a href="Contact.html">Contact</a>
+            </div>
+        </div>
+        <p>&copy; 2024 Porsche. Tous droits réservés.</p>
+    </footer>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "100%";
+            document.body.style.overflow = "hidden";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0%";
+            document.body.style.overflow = "unset";
+        }
+    </script>
+
+</body>
+</html>
