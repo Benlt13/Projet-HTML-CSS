@@ -23,5 +23,6 @@
 8) Création de l'icone pour le changement de langue FR / EN
 
 #### Mise en place du site
-1)Code mis en ligne sur Github
-2)Mise en ligne du site via Netifly : https://benlgt-jaouedsteloi.netlify.app/
+
+1) Code mis en ligne sur Github
+2) Mise en ligne du site via Netifly : https://benlgt-jaouedsteloi.netlify.app/
