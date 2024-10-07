@@ -18,3 +18,10 @@
 
 4) Création du sommaire en appuyant sur le nom "login" : Il y a dedans : "Home", "Porsche GT", "Contact".
 5) Création de la page "Porsche GT" puis pour finir de la page "Contact".
+6) Création du carroussel
+7) Création du parallaxe
+8) Création de l'icone pour le changement de langue FR / EN
+
+#### Mise en place du site
+1)Code mis en ligne sur Github
+2)Mise en ligne du site via Netifly : https://benlgt-jaouedsteloi.netlify.app/
